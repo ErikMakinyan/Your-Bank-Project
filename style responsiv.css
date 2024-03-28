@@ -1,0 +1,14 @@
+@media screen and (max-width: 500px) {
+	.main_header_obj_n2 {
+		display: none;
+	}
+	.main_header {
+		/* background-color: #a5c105; */
+	}
+	.main_mainwrap_inside {
+		display: inline;
+	}
+	.main_mainwrap_inside_leftright {
+		width: 100%;
+	}
+}

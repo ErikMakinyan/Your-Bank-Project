@@ -1,0 +1,138 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+header,
+main,
+body {
+	background-color: #1a1a1a;
+}
+.header {
+	width: 100%;
+	height: 120px;
+	/* background-color: rgb(17, 15, 15); */
+	/* background-color: var(--main-bg-color); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main_header {
+	width: 85%;
+	height: 73px;
+	background-color: #1c1c1c;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 36px;
+	border: solid 2px;
+	border: solid #262626;
+}
+
+.main_header_obj_cont {
+	width: 91%;
+	/* height: 41px; */
+	background-color: #1c1c1c;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.main_header_obj_n1 {
+	display: flex;
+	align-items: center;
+}
+
+.yourbank_icons_wrap {
+	width: 30px;
+	height: 30px;
+	background-color: rgb(251, 255, 19);
+}
+.text_yourbank {
+	font-size: 14px;
+	color: #ffffff;
+	margin-left: 4px;
+}
+
+.yourbank_text_wrap {
+	display: flex;
+}
+
+.main_header_obj_n2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main_header_obj_n2_chil_text {
+	margin-left: 22px;
+	color: azure;
+	font-size: 14px;
+}
+
+.main_header_obj_n2_chil_text_home {
+	color: azure;
+	font-size: 14px;
+}
+
+.main_header_obj_n2_chil_home {
+	width: 71px;
+	height: 41px;
+	background-color: #262626;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 19px;
+}
+
+.main_header_obj_n3 {
+	display: flex;
+}
+
+.main_header_obj_n3_text {
+	color: azure;
+	font-size: 14px;
+}
+
+.main_header_obj_n3_chil2 {
+	width: 87px;
+	height: 45px;
+	background-color: #caff33;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main_header_obj_n3_chil1 {
+	width: 87px;
+	height: 45px;
+	/* background-color: #caff33; */
+	/* border-radius: 20px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* main_ourvalues */
+.ourvalues {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+.ourvalues_mainwrap {
+	width: 90%;
+}
+.ourvalues_maintext_text {
+	font-size: 24px;
+	color: #caff33;
+}
+.ourvalues_downtext_text {
+	font-size: 16px;
+	color: #ffffff;
+	margin-top: 20px;
+}
+
+.ourvalues_tablet_chilwrap {
+	width: 50%;
+}
